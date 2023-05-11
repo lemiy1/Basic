@@ -392,9 +392,6 @@ a{
 .comment:hover{
     border: 2px solid #fe8464;
 }
-.quote:hover{
-    : #FE7A7B;
-}
 .quote{
     position: relative;
     right: -35px;
@@ -415,4 +412,72 @@ a{
 .quote a img{
     width: 36px;
     height: 36px;
+}
+.blog{
+    margin-top: 50px;
+    position: relative;
+}
+.blog .title_block{
+    text-align: start;
+    margin-bottom: 25px;
+}
+.blog .title_block:before{
+    left: 6%
+}
+.blogs{
+    display: flex;
+    justify-content: space-between;
+}
+.item_info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.item{
+    width: 350px;
+}
+.info{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #6A6972;
+}
+.item .desc_cart{
+    font-size: 23px;
+    text-align: left;
+    color: #000;
+    font-weight: 800;
+}
+.item a{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fe8464;
+    margin-top: 10px;
+}
+.item a:after{
+    content: '>';
+    margin-left: 4px;
+    font-size: 20px;
+}
+.items .img_face{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+    position: relative;
+    background-size: 100%;
+}
+.items{
+    display: flex;
+    position: relative;
+}
+.items .info{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: max-content;
+}
+.items .img_bg{
+    margin-left: 40px;
+    margin-top: 0px;
+    background-size: 100%;
+    background: url("../img/services-shape.svg") no-repeat center;
+    background-size: cover;
 }
