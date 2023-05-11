@@ -476,7 +476,6 @@ a{
 }
 .items .img_bg{
     margin-left: 40px;
-    margin-top: 0px;
     background-size: 100%;
     background: url("../img/services-shape.svg") no-repeat center;
     background-size: cover;
